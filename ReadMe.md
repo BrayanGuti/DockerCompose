@@ -41,7 +41,7 @@ proyecto-multicontenedor/
 1. **Navega al directorio del proyecto**:
 
    ```bash
-   cd proyecto-multicontenedor
+   cd DockerCompose
    ```
 
 2. **Ejecuta el comando para iniciar los contenedores**:
