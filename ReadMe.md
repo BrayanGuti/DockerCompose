@@ -1,5 +1,3 @@
----
-
 # 🚀 Proyecto Docker Compose con Nginx y Aplicaciones Web
 
 ## 📋 Descripción del Proyecto
@@ -66,5 +64,3 @@ proyecto-multicontenedor/
 
 - Si estás utilizando **Play with Docker**, todos los comandos se ejecutan directamente en la terminal proporcionada por el servicio.
 - Asegúrate de que los archivos `nginx.conf`, `welcome.html`, y los directorios `Sintaxify` y `AuthenticationServerFrontend` existan y estén correctamente configurados.
-
----
