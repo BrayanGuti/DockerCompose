@@ -11,15 +11,11 @@ services:
       - app2
 
   app1:
-    image: nginx:latest
+    build: ./App1
     ports:
       - "8000:80"  # Exponer el puerto 8000 al host y mapearlo al puerto 80 dentro del contenedor
-    volumes:
-      - ./Sintaxify/index.html:/usr/share/nginx/html/index.html
 
   app2:
-    image: nginx:latest
+    build: ./App2
     ports:
       - "8001:80"  # Exponer el puerto 8001 al host y mapearlo al puerto 80 dentro del contenedor
-    volumes:
-      - ./AuthenticationServerFrontend/index.html:/usr/share/nginx/html/index.html

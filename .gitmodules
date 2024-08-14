@@ -1,0 +1,3 @@
+[submodule "App1/Sintaxify"]
+	path = App1/Sintaxify
+	url = https://github.com/proyectosingenieriauninorte/Sintaxify

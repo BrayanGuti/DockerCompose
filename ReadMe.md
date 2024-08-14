@@ -15,18 +15,22 @@ El proxy redirige las solicitudes a `/c2` y `/c3` hacia las aplicaciones web cor
 ```bash
 proyecto-multicontenedor/
 │
-├── docker-compose.yml         # Archivo de configuración Docker Compose
-├── nginx.conf                 # Configuración del proxy Nginx
-├── welcome.html               # Página de bienvenida del proxy
-├── Sintaxify/                 # Contenido de la Aplicación Web 1
-│   └── index.html
-└── AuthenticationServerFrontend/  # Contenido de la Aplicación Web 2
-    └── index.html
+├── docker-compose.yml       # Archivo de configuración Docker Compose
+├── nginx.conf               # Configuración del proxy Nginx
+├── welcome.html             # Página de bienvenida del proxy
+├── App1                     # Directorio para la Aplicación Web 1
+│   └── Sintaxify/           # Contenido de la Aplicación Web 1
+│       └── index.html
+└── App2                     # Directorio para la Aplicación Web 2
+    └── LogisimWeb/          # Contenido de la Aplicación Web 2
+        └── index.html
+
 ```
 
 ## 🛠️ Instrucciones de Uso
 
-### 1️⃣ Preparación del Entorno
+### 1️⃣ Preparación del Entorn
+o
 
 1. **Crea el proyecto en tu máquina local**: Clona este repositorio o descarga los archivos necesarios.
 
