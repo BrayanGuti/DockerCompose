@@ -1,3 +1,6 @@
 [submodule "App1/Sintaxify"]
 	path = App1/Sintaxify
 	url = https://github.com/proyectosingenieriauninorte/Sintaxify
+[submodule "App2/LogisimWeb"]
+	path = App2/LogisimWeb
+	url = https://github.com/proyectosingenieriauninorte/LogisimWeb
