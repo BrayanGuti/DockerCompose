@@ -2,9 +2,9 @@ FROM node:12.18.3-alpine3.12
 
 RUN npm install -g http-server
 
-WORKDIR /LogisimWeb
+WORKDIR /logisimWeb
 
-COPY LogisimWeb/ .
+COPY logisimWeb/ .
 
 EXPOSE 8001
 
